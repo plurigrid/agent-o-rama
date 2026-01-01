@@ -1,0 +1,376 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "emacs": {
+        "pkg-path": "emacs"
+      },
+      "helix": {
+        "pkg-path": "helix"
+      },
+      "jdk": {
+        "pkg-path": "jdk"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "emacs",
+      "broken": false,
+      "derivation": "/nix/store/g2hyw0cs2f1xq76a00f5miqxlh33nyck-emacs-30.2.drv",
+      "description": "Extensible, customizable GNU text editor",
+      "install_id": "emacs",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "emacs-30.2",
+      "pname": "emacs",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T02:55:22.935478Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "30.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/np588f4wzi7qbz2q3kxv0ald5dsy7xw9-emacs-30.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "emacs",
+      "broken": false,
+      "derivation": "/nix/store/sz6gcbjrxzjwdvkj5w807n9zm2jq15ra-emacs-30.2.drv",
+      "description": "Extensible, customizable GNU text editor",
+      "install_id": "emacs",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "emacs-30.2",
+      "pname": "emacs",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:04:23.979932Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "30.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/xrmmpvd1wvd45mh3sqibamn0lpbfkvfj-emacs-30.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "emacs",
+      "broken": false,
+      "derivation": "/nix/store/6k5nxgh0qrxkq6h87ak5zz245l3mjs58-emacs-30.2.drv",
+      "description": "Extensible, customizable GNU text editor",
+      "install_id": "emacs",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "emacs-30.2",
+      "pname": "emacs",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:14:22.169317Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "30.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1zmcg8hrnq9mkbh70dy10ymwx77sd2kx-emacs-30.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "emacs",
+      "broken": false,
+      "derivation": "/nix/store/xsm6i6zryr5rzrghcj4z0xhbraa08shn-emacs-30.2.drv",
+      "description": "Extensible, customizable GNU text editor",
+      "install_id": "emacs",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "emacs-30.2",
+      "pname": "emacs",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:23:14.680507Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "30.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/01vlasl3qnpbgra77gq39x6qgxgfj9z4-emacs-30.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/qb7xw6wj6c82psiq1v3xr1rhsacl9bdg-helix-25.07.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "helix-25.07.1",
+      "pname": "helix",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T02:55:36.275132Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/570yvl4i7g2f4nlaj2k9c961bbflack2-helix-25.07.1-doc",
+        "out": "/nix/store/wachg9d0hpssmprhzwssz7w105224yy4-helix-25.07.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/9yqq6y231p1kbdyx8rz1pwjn140j0awg-helix-25.07.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "helix-25.07.1",
+      "pname": "helix",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:04:41.018511Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/46laihh5qfma65jdcybfwqyxpwy5wiqs-helix-25.07.1-doc",
+        "out": "/nix/store/gjf9bqvm5ccxlmn5yly4h31p4dgia7vp-helix-25.07.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/2qjgwzvk2symc8f0psfbx1lnixy5pipa-helix-25.07.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "helix-25.07.1",
+      "pname": "helix",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:14:35.439143Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/ij1zz7a9ldvm2qk89rqg4pp1spq7fsrd-helix-25.07.1-doc",
+        "out": "/nix/store/wbn3f27j8ri77g4wyih3yqf552xq0v69-helix-25.07.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/qfxpfcipm18g93d512g1lgll52b0gaz0-helix-25.07.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "helix-25.07.1",
+      "pname": "helix",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:23:32.018074Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/ki0ap2fla131l5rx4diqs4fv94wdx08p-helix-25.07.1-doc",
+        "out": "/nix/store/vlmbfnxk3cpn9bpcasnzv82xhyxxxr2g-helix-25.07.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/v333xkra2sr8zw73hzfi5wi2n1kim52a-zulu-ca-jdk-21.0.8.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "zulu-ca-jdk-21.0.8",
+      "pname": "jdk",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T02:55:37.344956Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zng56j969rl5xnkz5v5c7j9fsxpm7sm1-zulu-ca-jdk-21.0.8"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/g4a7q1b9rlpxkmnyma83c6cf1w7fmq4l-openjdk-21.0.9+10.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "openjdk-21.0.9+10",
+      "pname": "jdk",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:04:44.217777Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.9+10",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/qmczwsgqyfq49baj86rwza8nc49ag282-openjdk-21.0.9+10-debug",
+        "out": "/nix/store/jlxgl3k14x3zhfa00rsygfw3fgp6xgg8-openjdk-21.0.9+10"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/anf89016ggyfvz0rqa5a7kvpg9a3q87n-zulu-ca-jdk-21.0.8.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "zulu-ca-jdk-21.0.8",
+      "pname": "jdk",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:14:36.472100Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bkqa7q4jkrg69fmmik1sz8lszclmibdw-zulu-ca-jdk-21.0.8"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk",
+      "broken": false,
+      "derivation": "/nix/store/annmcl0ds0b1wjl0wpas17zy1fxsba0a-openjdk-21.0.9+10.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "name": "openjdk-21.0.9+10",
+      "pname": "jdk",
+      "rev": "a6531044f6d0bef691ea18d4d4ce44d0daa6e816",
+      "rev_count": 914755,
+      "rev_date": "2025-12-21T09:35:49Z",
+      "scrape_date": "2025-12-23T03:23:35.389349Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.9+10",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/iqrpym2396ppr5498xci88zf6kc37yxl-openjdk-21.0.9+10-debug",
+        "out": "/nix/store/65qpdkc33j5wqzxvz8c23zhgms8hl35y-openjdk-21.0.9+10"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
